@@ -1,0 +1,493 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5924342919238062759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f877b1bab6c08874e8e0931dec63fc33, type: 3}
+  m_Name: Portrait Model
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1384, y: 312}
+  ports:
+    keys:
+    - StartPort
+    - EndPort
+    values:
+    - _fieldName: StartPort
+      _node: {fileID: -5924342919238062759}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: TextChoices 1
+        node: {fileID: 8335053316447063512}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: EndPort
+      _node: {fileID: -5924342919238062759}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  StartPort: 0
+  EndPort: 0
+  <Name>k__BackingField: Lucy
+  <Sprite>k__BackingField: {fileID: 21300000, guid: a7ed89759711aef4695f536d87968fa2, type: 3}
+  <Position>k__BackingField: 2
+--- !u!114 &-5705809287565307346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f877b1bab6c08874e8e0931dec63fc33, type: 3}
+  m_Name: Portrait Model
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1384, y: 152}
+  ports:
+    keys:
+    - StartPort
+    - EndPort
+    values:
+    - _fieldName: StartPort
+      _node: {fileID: -5705809287565307346}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: TextChoices 0
+        node: {fileID: 8335053316447063512}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: EndPort
+      _node: {fileID: -5705809287565307346}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  StartPort: 0
+  EndPort: 0
+  <Name>k__BackingField: Lucy
+  <Sprite>k__BackingField: {fileID: 21300000, guid: a7ed89759711aef4695f536d87968fa2, type: 3}
+  <Position>k__BackingField: 1
+--- !u!114 &-5028187333265061595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 476dd7fca2285e2479ccd515284f48c4, type: 3}
+  m_Name: Background Model
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 328, y: -24}
+  ports:
+    keys:
+    - StartPort
+    - EndPort
+    values:
+    - _fieldName: StartPort
+      _node: {fileID: -5028187333265061595}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: EndPort
+        node: {fileID: -4084430363286120176}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: EndPort
+      _node: {fileID: -5028187333265061595}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: StartPort
+        node: {fileID: 8232185329090356768}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  StartPort: 0
+  EndPort: 0
+  <Sprite>k__BackingField: {fileID: 21300000, guid: c14feded992fa2b46b676017697a48e3, type: 3}
+--- !u!114 &-4084430363286120176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc59f8ffeb76a54aa531f3df9c28319, type: 3}
+  m_Name: Dialogue Model
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 88, y: -40}
+  ports:
+    keys:
+    - StartPort
+    - EndPort
+    values:
+    - _fieldName: StartPort
+      _node: {fileID: -4084430363286120176}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: EndPort
+        node: {fileID: -1564511174696209014}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: EndPort
+      _node: {fileID: -4084430363286120176}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: StartPort
+        node: {fileID: -5028187333265061595}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  StartPort: 0
+  EndPort: 0
+  <Name>k__BackingField: start
+  <Text>k__BackingField: show bg
+--- !u!114 &-1564511174696209014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc59f8ffeb76a54aa531f3df9c28319, type: 3}
+  m_Name: Dialogue Model
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -161.95097, y: -46.800274}
+  ports:
+    keys:
+    - StartPort
+    - EndPort
+    values:
+    - _fieldName: StartPort
+      _node: {fileID: -1564511174696209014}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: EndPort
+      _node: {fileID: -1564511174696209014}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: StartPort
+        node: {fileID: -4084430363286120176}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  StartPort: 0
+  EndPort: 0
+  <Name>k__BackingField: Start
+  <Text>k__BackingField: This start
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab11ef5e86987744f8e718501f902013, type: 3}
+  m_Name: New Command Node Graph
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -1564511174696209014}
+  - {fileID: -5028187333265061595}
+  - {fileID: -4084430363286120176}
+  - {fileID: 8232185329090356768}
+  - {fileID: 1936811911973577277}
+  - {fileID: 1822042926578788787}
+  - {fileID: -5705809287565307346}
+  - {fileID: 8335053316447063512}
+  - {fileID: -5924342919238062759}
+--- !u!114 &1822042926578788787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc59f8ffeb76a54aa531f3df9c28319, type: 3}
+  m_Name: Dialogue Model
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1096, y: -24}
+  ports:
+    keys:
+    - StartPort
+    - EndPort
+    values:
+    - _fieldName: StartPort
+      _node: {fileID: 1822042926578788787}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: EndPort
+        node: {fileID: 1936811911973577277}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: EndPort
+      _node: {fileID: 1822042926578788787}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: StartPort
+        node: {fileID: 8335053316447063512}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  StartPort: 0
+  EndPort: 0
+  <Name>k__BackingField: Start
+  <Text>k__BackingField: move character ?
+--- !u!114 &1936811911973577277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f877b1bab6c08874e8e0931dec63fc33, type: 3}
+  m_Name: Portrait Model
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 808, y: -24}
+  ports:
+    keys:
+    - StartPort
+    - EndPort
+    values:
+    - _fieldName: StartPort
+      _node: {fileID: 1936811911973577277}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: EndPort
+        node: {fileID: 8232185329090356768}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: EndPort
+      _node: {fileID: 1936811911973577277}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: StartPort
+        node: {fileID: 1822042926578788787}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  StartPort: 0
+  EndPort: 0
+  <Name>k__BackingField: Lucy
+  <Sprite>k__BackingField: {fileID: 21300000, guid: a7ed89759711aef4695f536d87968fa2, type: 3}
+  <Position>k__BackingField: 0
+--- !u!114 &8232185329090356768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc59f8ffeb76a54aa531f3df9c28319, type: 3}
+  m_Name: Dialogue Model
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 584, y: -40}
+  ports:
+    keys:
+    - StartPort
+    - EndPort
+    values:
+    - _fieldName: StartPort
+      _node: {fileID: 8232185329090356768}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: EndPort
+        node: {fileID: -5028187333265061595}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: EndPort
+      _node: {fileID: 8232185329090356768}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: StartPort
+        node: {fileID: 1936811911973577277}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  StartPort: 0
+  EndPort: 0
+  <Name>k__BackingField: Start
+  <Text>k__BackingField: Show character center
+--- !u!114 &8335053316447063512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb771a179c808c34d961d75374c6c86b, type: 3}
+  m_Name: Choices Model
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1096, y: 184}
+  ports:
+    keys:
+    - TextChoices
+    - StartPort
+    - EndPort
+    - TextChoices 0
+    - TextChoices 1
+    values:
+    - _fieldName: TextChoices
+      _node: {fileID: 8335053316447063512}
+      _typeQualifiedName: System.String[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: StartPort
+      _node: {fileID: 8335053316447063512}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: EndPort
+        node: {fileID: 1822042926578788787}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: EndPort
+      _node: {fileID: 8335053316447063512}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: TextChoices 0
+      _node: {fileID: 8335053316447063512}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: StartPort
+        node: {fileID: -5705809287565307346}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: TextChoices 1
+      _node: {fileID: 8335053316447063512}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: StartPort
+        node: {fileID: -5924342919238062759}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  StartPort: 0
+  EndPort: 0
+  TextChoices:
+  - left
+  - right
+--- !u!114 &9214547476278136068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Nigga
+  m_EditorClassIdentifier: Assembly-CSharp::Nigga
+  graph: {fileID: 11400000}
+  position: {x: 34.5, y: -33}
+  ports:
+    keys: []
+    values: []
+  <Name>k__BackingField: dadwada
+  <Text>k__BackingField: awdwad
