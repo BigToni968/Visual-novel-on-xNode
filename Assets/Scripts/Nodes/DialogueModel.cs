@@ -7,7 +7,7 @@ public interface IModelDialogue
     public string Text { get; }
 }
 
-public class XnodeModel : Node
+public abstract class XnodeModel : Node
 {
     [Input]
     public bool StartPort;
